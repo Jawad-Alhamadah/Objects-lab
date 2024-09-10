@@ -5,7 +5,7 @@ const User ={
     Available : true,
     isAvilable : function (){this.Available? console.log("user is available"):console.log("user is not available")},
     adress:{
-        objectCity:{
+        City:{
             name :"london",
             population: 2300000
         },
@@ -35,6 +35,6 @@ console.log(User)
 User.isAvilable()
 
 
-console.log(User.adress.objectCity.name)
+console.log(User.adress.City.name)
 
 console.log(User.skills.join(','))
