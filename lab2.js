@@ -47,7 +47,7 @@ console.log(firstBlueEyes.name);
 
 let firstGenderOver50 = characters.find(character => character.mass > 50)
 
-console.log("first blue eyes");
+console.log("first gender over 50 mass");
 console.log(firstBlueEyes.gender);
 
 console.log("height less than 200")
